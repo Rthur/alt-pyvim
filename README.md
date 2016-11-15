@@ -16,6 +16,8 @@ pyvim_facts.py  pyvim_mount_cd.py  pyvim_power.py  pyvim_umount_cd.py
   - umount iso (pyvim_umount_cd)
   - change virtual machine powerState (pyvim_power)
 
+These modules will not work with python-requests 2.7.0. It has been tested with 2.9.1, 2.12.0
+
 DISCLAIMER
 ==========
 Please note: all tools/ scripts in this repo are released for use "AS IS" without any warranties of any kind, including, but not limited to their installation, use, or performance. We disclaim any and all warranties, either express or implied, including but not limited to any warranty of noninfringement, merchantability, and/ or fitness for a particular purpose. We do not warrant that the technology will meet your requirements, that the operation thereof will be uninterrupted or error-free, or that any errors will be corrected.
